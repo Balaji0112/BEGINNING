@@ -8,6 +8,6 @@ def IsUnique(word):
     return True
 word=input()
 if(IsUnique(word)):
-    print(word+'has all the characters as unique')
+    print(word+' has all the characters as unique')
 else:
-    print(word+'has some repeated letters')
+    print(word+' has some repeated letters')
