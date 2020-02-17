@@ -8,7 +8,7 @@ def URLify(sentence):
         return -1
     index=new_length-1
     sentence=list(sentence)
-    for i in range(word_length-2,new_length-2):
+    for j in range(word_length-2,new_length-2):
         sentence.append('0')
     for j in range(word_length-1,0,-1):
         if(sentence[j]==' '):
