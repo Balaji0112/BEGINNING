@@ -1,4 +1,4 @@
-def Rotated_string(word1,word2):
+def IsSubstring(word1,word2):
     length=len(word1)
     temp=[0]*length
     for i in range(length):
@@ -18,8 +18,8 @@ def Rotated_string(word1,word2):
            return True
     return False
 word1,word2=input().split()
-rotate=Rotated_string(word1,word2)
-if(rotate):
+Solution=IsSubstring(word1,word2)
+if(Solution):
     print('yes word1 is a substring of word2')
 else:
     print('no word1 is not a substring of word2')
