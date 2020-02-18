@@ -32,7 +32,6 @@ class LinkedList:
             print(cur_node.data)
             cur_node=cur_node.next
 llist=LinkedList()
-l=[]
 no_of_input=int(input())
 for i in range(no_of_input):
     llist.insert(input())
