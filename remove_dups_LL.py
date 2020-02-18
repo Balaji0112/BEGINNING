@@ -5,7 +5,7 @@ class Node:
 class LinkedList:
     def __init__(self):
         self.head=None
-    def append(self,data):
+    def insert(self,data):
         new_node=Node(data)
         if self.head is None:
             self.head=new_node
@@ -32,11 +32,9 @@ class LinkedList:
             print(cur_node.data)
             cur_node=cur_node.next
 llist=LinkedList()
-llist.append('a')
-llist.append('b')
-llist.append('c')
-llist.append('a')
-llist.append('c')
-llist.append('a')
+l=[]
+no_of_input=int(input())
+for i in range(no_of_input):
+    llist.insert(input())
 llist.Remove_dups()
 llist.print_list()
